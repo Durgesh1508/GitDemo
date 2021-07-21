@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: runnerclass.HooksTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.181 s <<< FAILURE! - in runnerclass.HooksTest
+Search a Product3(Amazon Search Engine)  Time elapsed: 0.063 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "oh my god" is undefined. You can implement it using the snippet(s) below:
+
+@Then("oh my god")
+public void oh_my_god() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
